@@ -14,3 +14,13 @@ main {
   /* são 4 valores para arredondar os 4 cantos */
   border-radius: 15px 15px 0 0;
 }
+main input {
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: 0;
+  background: #ccc;
+  border-radius: 25px;
+  outline: none;
+}
