@@ -14,7 +14,7 @@ main {
   /* são 4 valores para arredondar os 4 cantos */
   border-radius: 15px 15px 0 0;
 }
-main input {
+.formulario {
   width: 80%;
   height: 50px;
   margin-left: 10%;
@@ -23,4 +23,24 @@ main input {
   background: #ccc;
   border-radius: 25px;
   outline: none;
+  /* TEXTO */
+  text-indent: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  color: #333;
+}
+main button {
+  text-indent: 0 !important;
+  background: #283673 !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#esqueceu {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  color: #283673;
+  font-weight: bold;
+  margin-top: 5%;
 }
