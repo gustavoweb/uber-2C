@@ -97,3 +97,17 @@ small a{
   color: #283673;
   font-weight: bold;
 }
+
+/* Tablets e Notebooks */
+@media (min-width: 769px) and (max-width: 1279px) {
+  body{
+    background-position-x: center;
+  }
+  main{
+    width: 45%;
+    height: auto;
+    float: right;
+    background: red;
+    margin-right: 5%;
+  }
+}
