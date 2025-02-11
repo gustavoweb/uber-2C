@@ -1,4 +1,4 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,6 +8,9 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: 5px;
+}
+#principal{
+  display:none;
 }
 main {
   width: 100%;
@@ -102,12 +105,22 @@ small a{
 @media (min-width: 769px) and (max-width: 1279px) {
   body{
     background-position-x: center;
+    background: #fff;
+  }
+  #principal{
+    display: block; /*exibir*/
+    font-family: "Bebas Neue", serif;
+    font-size: 4em;
+    float: left;
+    margin-top: 50%;
+    margin-left: 2%;
+    color: #283673;
   }
   main{
     width: 45%;
     height: auto;
     float: right;
-    background: red;
+    /* background: red; */
     margin-right: 5%;
   }
 }
